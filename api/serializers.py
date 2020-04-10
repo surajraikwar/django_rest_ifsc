@@ -6,7 +6,5 @@ class BranchSerializer(serializers.ModelSerializer):
     class Meta:
         model = Branch
         fields = (
-            'id', 'ifsc', 'name', 'bank', 'address',
-            'city', 'district', 'state')
-
-
+            'ifsc', 'name', 'bank', 'address',
+            'city', 'state')
